@@ -101,16 +101,7 @@ border: 1px solid shadow 2px 2px 0px #757575
 
 `;
 
-export const IsOnline = styled.span`
-/* background-color: ${(eventType ,theme) => {
-switch(eventType){
-    case 'true':
-      return theme.colors.green;
-    case 'false':
-      return theme.colors.red;
-  };
-}} */
-`;
+
 
 
 
