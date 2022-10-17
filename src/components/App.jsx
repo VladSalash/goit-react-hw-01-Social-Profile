@@ -1,4 +1,4 @@
-import {Container} from '../Container/Container.styled';
+import {Cont} from '../Container/Container.styled';
 
 
 import Profile from 'components/Profile/Profile'
@@ -17,7 +17,7 @@ import transactions from './jsons/transactions.json';
 export const App = () => {
   return (
     <>
-    <Container>
+    <Cont>
       <Profile
         avatar={user.avatar}
         username={user.username}
@@ -25,19 +25,19 @@ export const App = () => {
         location={user.location}
         stats={user.stats}
         />
-      </Container>
+      </Cont>
 
-       <Container>
+       <Cont>
         <Statistics title="UPLOAD STATS" stats={data} />
-      </Container>
+      </Cont>
 
-      <Container>
+      <Cont>
         <FriendList friends={friends} />
-      </Container>
+      </Cont>
 
-      <Container>
+      <Cont>
         <TransactionHistory items={transactions} />
-        </Container>
+        </Cont>
       </>
   );
 };
