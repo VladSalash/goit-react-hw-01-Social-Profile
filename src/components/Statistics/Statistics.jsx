@@ -19,8 +19,6 @@ const Statistics = ({ title, stats }) => {
   );
 };
 
-console.log(Statistics)
-
 export default Statistics;
 
 Statistics.propTypes = {

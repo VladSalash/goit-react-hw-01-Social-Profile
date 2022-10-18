@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Cont = styled.div`
+const Container = styled.div`
 display: flex;
   justify-content: center;
   max-width: 1200px;
@@ -8,3 +8,4 @@ display: flex;
   padding: 20px 15px;
   background-color: #E3E9EF;
 `;
+export default Container;

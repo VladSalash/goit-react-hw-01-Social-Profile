@@ -1,7 +1,4 @@
 import PropTypes from 'prop-types'
-
-
-// import getRandomHexColor from './getRandomHexColor.js';
 import { Item, Status, AvatarImg, Name } from './FriendList.style'
 
 const FriendItem = ({ isOnline, avatar, name }) =>{

@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-
 import { Table, TabHead, TabR, TabH, TabBody, TabD } from './TransactionHistory.style'
 
 

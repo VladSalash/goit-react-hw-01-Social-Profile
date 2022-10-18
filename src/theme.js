@@ -29,7 +29,6 @@ export const theme = Object.freeze({
     monospace: 'monospace',
   },
 
-  // spacing: value => `${4 * value}px`,
   space: [0, 2, 4, 8, 16, 32, 64],
 
   fontSizes: {
